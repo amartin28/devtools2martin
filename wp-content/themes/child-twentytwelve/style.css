@@ -1,0 +1,29 @@
+/*
+
+Theme Name: twentytwelve 2.0
+Description: Child Theme for devtools2 Assignment
+Author: AlanaMartin.ca 
+Version: 1.0    
+Template: twentytwelve
+
+
+*/
+
+@import url('../twentytwelve/style.css');
+.site {
+    float: left;
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .site {
+        max-width: 100%;
+    }
+    .site-content {
+        float: right;
+    }
+    .widget-area {
+        float: none;
+        margin-left: 5%;
+    }
+}

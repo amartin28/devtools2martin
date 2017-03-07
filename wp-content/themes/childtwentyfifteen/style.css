@@ -1,0 +1,50 @@
+ /*
+
+Theme Name: twentyfifteen 2.0
+Description: Child Theme for devtools2 Assignment
+Author: AlanaMartin.ca 
+Version: 1.0    
+Template: twentyfifteen
+
+
+*/
+ 
+ @import url('../twentyfifteen/style.css');
+ body {
+     background-color: #000000;
+ }
+ 
+ .main-navigation {
+     /*background-color: rgba(51, 0, 102, 0.4);*/
+     border: 5px solid rgba(51, 0, 102, 0.5);
+     border-top-left-radius: 40px;
+     border-bottom-right-radius: 40px;
+ }
+ 
+ .main-navigation a {
+     color: #330066;
+     padding-left: 1em;
+ }
+ 
+ .site-footer {
+     display: none;
+ }
+ 
+ @media screen and (min-width: 59.6875em) {
+     .sidebar {
+         background-color: transparent;
+         margin: 0;
+     }
+     .site {
+         background-color: transparent;
+         max-width: 100%;
+     }
+     #page {
+         margin: 0;
+     }
+     body:before {
+         background-color: transparent;
+         background-image: url(sidebar-bg.png);
+         background-repeat: no-repeat;
+     }
+ }
