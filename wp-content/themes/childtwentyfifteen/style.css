@@ -10,8 +10,9 @@ Template: twentyfifteen
 */
  
  @import url('../twentyfifteen/style.css');
+ @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
  body {
-     background-color: #000000;
+     background-color: #808080;
  }
  
  .main-navigation {
@@ -24,6 +25,7 @@ Template: twentyfifteen
  .main-navigation a {
      color: #330066;
      padding-left: 1em;
+     font-family: sans-serif;
  }
  
  .site-footer {

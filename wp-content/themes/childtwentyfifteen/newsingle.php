@@ -12,7 +12,7 @@ Single Post Template: Custom post
 Description: Custom post template
 
 */
-6
+
 ?>
 
 
